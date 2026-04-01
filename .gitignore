@@ -1,0 +1,8 @@
+# Generated site output
+index.html
+categories/*/
+runs/*/
+_site/
+
+# Python cache
+__pycache__/

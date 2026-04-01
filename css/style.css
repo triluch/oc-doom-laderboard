@@ -96,3 +96,12 @@ td:last-child {
     padding-bottom: 3%;
     padding-top: 3%
 }
+
+.site-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+    max-width: min(96px, 20vw);
+    height: auto;
+    border-radius: 8px;
+}

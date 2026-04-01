@@ -1,3 +1,36 @@
+# OpenCentauri Doom Leaderboard
+
+Speedrun leaderboard for Doom running on the Elegoo Centauri Carbon.
+Hosted at: [triluch.github.io/oc-doom-laderboard](https://triluch.github.io/oc-doom-laderboard)
+
+## Categories
+
+- **[CentauriCarbonAny%](https://triluch.github.io/oc-doom-laderboard/categories/centauri-carbon-any)** — any%, no restrictions
+- **[CentauriCarbonTouchAny%](https://triluch.github.io/oc-doom-laderboard/categories/centauri-carbon-touch-any)** — any%, touch controls only
+
+## Submitting a run
+
+1. Fork this repo and edit `csv/runs.csv` — add a row at the end:
+
+   | field | description |
+   |---|---|
+   | `tk_run_id` | unique slug used in the URL, e.g. `yourname-any-2026-04-01` |
+   | `tk_run_runner` | your name |
+   | `tk_run_verifier` | who verified the run |
+   | `tk_run_duration` | time in `H:MM:SS` format |
+   | `tk_run_category_dashname` | `centauri-carbon-any` or `centauri-carbon-touch-any` |
+   | `tk_run_date` | date of the run, e.g. `2026-04-01` |
+   | `tk_run_description` | short description / notes (can be empty) |
+   | `tk_run_link` | link to video proof (YouTube or Streamable) |
+
+2. Open a PR — the site regenerates and deploys automatically on merge.
+
+The leaderboard sorts by time and keeps only the fastest run per runner per category.
+
+---
+
+## paceboard — original readme
+
 # paceboard
 
 ![Project logo, a sine wave forming gravestones in the negative space.](assets/img/logo.png)
